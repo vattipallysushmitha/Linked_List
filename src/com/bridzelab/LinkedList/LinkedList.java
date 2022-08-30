@@ -38,25 +38,25 @@ class LinkedList
 	public void show()
 	{
 		
-		 //Node current will point to head    
-        Node current = head;    
-            
-        if(head == null) 
-        {    
-            System.out.println("List is empty");    
-               
-        }    
-        System.out.println("Nodes of simple linked list is: ");    
-        while(current != null)
-        {    
+		if(head == null)
+		{
+            System.out.println("Linked List is Empty.");
+        } 
+		else 
+		{
+            Node current = head;
+        
+            while(current != null)
+            {    
             //Prints each node by incrementing pointer    
-            System.out.print(current.data + " ");    
+            System.out.print(current.data + "==>");    
             current = current.next;    
-        }    
-        System.out.println();    
-    }    
+            }    
+		}    
         
 	
-
-} 
-
+        
+	
+	
+	} 
+}
