@@ -12,13 +12,17 @@ public class Main
 			LinkedList list = new LinkedList();    
 		    
 		    //Adding nodes to the list    
-		    list.insert(70);    
-		    list.insert(30);    
-		    list.insert(56);        
+			list.insert(56);
+
+		    list.insert(30); 
+
+		    list.append(70); 
+		    
+
+
 		        
 		    //Displays the nodes present in the list    
 		    list.show();  
 		   
 	}   
 }
-

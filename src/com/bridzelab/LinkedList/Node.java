@@ -2,8 +2,8 @@ package com.bridzelab.LinkedList;
 
 public class Node 
 {	
-	public int data;
-	public Node next;
+	 int data;
+	 Node next;
     
 	//Node Constructor for Creating New Node
 	public Node(int data) 
