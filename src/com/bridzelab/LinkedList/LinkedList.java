@@ -1,3 +1,10 @@
+/*
+purpose=Lets create append method and add the data like 56, 30 and 70
+* @author= sushmitha
+* @since=02-09-2022
+*/
+
+
 package com.bridzelab.LinkedList;
 
 class LinkedList 
