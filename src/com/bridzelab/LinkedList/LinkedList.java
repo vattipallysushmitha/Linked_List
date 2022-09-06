@@ -75,6 +75,13 @@ class LinkedList
             }
         }
     }
+    //Method to Delete First Node from Linked List
+    public void delete()
+    {
+       
+           head = head.next;
+        
+    }
 
     //Display Node in Linked List
     public void showLinkedList()

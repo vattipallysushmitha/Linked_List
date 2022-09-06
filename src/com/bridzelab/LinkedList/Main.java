@@ -20,7 +20,7 @@ public class Main
 		        do
 		        {
 		            System.out.println("\nchoose the option what you need to enter");
-		            System.out.println("1. Inser First \n2. Insert Last \n3. Display List \n4. Insert at nth position \n5. Exit \n6. choose the Operation : ");
+		            System.out.println("1. Inser First \n2. Insert Last \n3. Display List \n4. Insert at nth position \n5. Delete first \n6. Exit \n7. choose the Operation : ");
 		            choose = sc.nextInt();
 
 		            switch (choose) 
@@ -45,8 +45,12 @@ public class Main
 		                    int data = sc.nextInt();
 		                    linkedList.insertNthPosition(data,nthData);
 		                    break;
+		                case 5:
+		                    linkedList.delete();
+		                    break;
+		                
 		            }
 		        }
-		        while(choose != 6);
+		        while(choose != 7);
 		    }
 	}
