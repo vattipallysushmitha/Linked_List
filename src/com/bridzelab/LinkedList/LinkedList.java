@@ -1,10 +1,8 @@
 /*
-purpose=Lets create append method and add the data like 56, 30 and 70
+purpose=Lets delete last node from given data
 * @author= sushmitha
-* @since=02-09-2022
+* @since=06-10-2022
 */
-
-
 package com.bridzelab.LinkedList;
 
 class LinkedList 
@@ -76,12 +74,28 @@ class LinkedList
         }
     }
     //Method to Delete First Node from Linked List
-    public void delete()
+    public void deleteFirst()
     {
        
            head = head.next;
         
     }
+    //Method to Delete Last Node from Linked List
+    public void deleteLast() 
+    {
+        if(head == null)
+        {
+            System.out.println("Linked List is Empty.");
+        } 
+        else 
+        {
+            Node second_Last = head;
+            while(second_Last.next.next != null)
+                second_Last = second_Last.next;
+                second_Last.next = null;
+        }
+    }
+
 
     //Display Node in Linked List
     public void showLinkedList()
